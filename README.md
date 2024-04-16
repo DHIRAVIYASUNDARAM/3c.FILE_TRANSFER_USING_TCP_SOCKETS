@@ -10,7 +10,7 @@ To write a python program for creating File Transfer using TCP Sockets Links
 4. Open the file and then send it to the client in byte format.
 5. In the client side receive the file from server and then write the content into it.
 ## PROGRAM
-### SERVER:
+### CLIENT:
 ```
 import socket
 
@@ -40,7 +40,7 @@ def start_server():
 
 start_server()
 ```
-### CLIENT:
+### SERVER:
 ```
 import socket
 
